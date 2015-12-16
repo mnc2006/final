@@ -30,6 +30,7 @@ gem 'font-awesome-rails'
 gem 'socialization'
 gem "koala", "~> 2.2"
 gem 'figaro'
+gem 'omniauth-facebook'
 
 
 

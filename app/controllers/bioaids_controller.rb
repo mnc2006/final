@@ -1,0 +1,2 @@
+class BioaidsController < ApplicationController
+end

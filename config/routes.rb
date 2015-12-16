@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :bioaids
   resources :comments
   resources :movies
   resources :users
