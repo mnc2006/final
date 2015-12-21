@@ -31,6 +31,9 @@ gem "koala", "~> 2.2"
 gem 'figaro'
 gem 'omniauth-facebook'
 gem 'friendly_id'
+gem 'RubyInline', '~> 3.12', '>= 3.12.4'
+gem 'mail_form'
+gem 'simple_form'
 
 
 

@@ -1,6 +1,9 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    RubyInline (3.12.4)
+      ZenTest (~> 4.3)
+    ZenTest (4.11.0)
     actionmailer (4.2.4)
       actionpack (= 4.2.4)
       actionview (= 4.2.4)
@@ -91,6 +94,9 @@ GEM
       nokogiri (>= 1.5.9)
     mail (2.6.3)
       mime-types (>= 1.16, < 3)
+    mail_form (1.5.1)
+      actionmailer (>= 3.2, < 5)
+      activemodel (>= 3.2, < 5)
     mime-types (2.99)
     mini_portile2 (2.0.0)
     minitest (5.8.3)
@@ -152,6 +158,9 @@ GEM
     sdoc (0.4.1)
       json (~> 1.7, >= 1.7.7)
       rdoc (~> 4.0)
+    simple_form (3.2.1)
+      actionpack (> 4, < 5.1)
+      activemodel (> 4, < 5.1)
     socialization (1.2.0)
       activerecord
     spring (1.6.0)
@@ -182,6 +191,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  RubyInline (~> 3.12, >= 3.12.4)
   better_errors
   bootstrap-sass (~> 3.3.6)
   byebug
@@ -191,12 +201,14 @@ DEPENDENCIES
   jbuilder (~> 2.0)
   jquery-rails
   koala (~> 2.2)
+  mail_form
   omniauth-facebook
   pg
   rails (= 4.2.4)
   rails_12factor
   sass (~> 3.4, >= 3.4.20)
   sdoc (~> 0.4.0)
+  simple_form
   socialization
   spring
   sqlite3
